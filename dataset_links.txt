@@ -1,0 +1,3 @@
+SU2C-MARK Foundation checkpoint blockade response study,phs002822.v1.p1,controlled access,https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs002822.v1.p1
+MSK-IMPACT studies,study-specific terms,public portal with study-level conditions,https://www.cbioportal.org/
+TCGA-LUAD,GDC data release subject to NIH Genomic Data Sharing Policy,open and controlled files,https://portal.gdc.cancer.gov/projects/TCGA-LUAD

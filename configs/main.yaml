@@ -1,0 +1,23 @@
+experiment:
+  total_environment_steps: 1000000
+  virtual_training_patients: 5000
+  calibration_patients: 1000
+  rollout_steps: 2048
+  seeds: [42, 137, 256, 789, 1024]
+agent:
+  observation_size: 15
+  actions: 5
+  hidden_units: [256, 128]
+  learning_rate: 0.0003
+  clipping: 0.2
+  entropy_coefficient: 0.01
+  discount: 0.99
+  optimizer: Adam
+episode:
+  horizon_days: 730
+  decision_interval_days: 21
+statistics:
+  bootstrap_resamples: 1000
+  folds: 5
+  primary_alpha: 0.05
+  exploratory_fdr: 0.05

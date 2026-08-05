@@ -1,0 +1,13 @@
+experiments:
+  - name: lotka_volterra_environment
+    expected_concordance: 0.710
+  - name: raw_state_only
+    expected_concordance: 0.730
+  - name: pd1_only
+    expected_concordance: 0.744
+  - name: no_treatment_burden
+    expected_concordance: 0.761
+  - name: no_holiday_bonus
+    expected_concordance: 0.768
+  - name: no_treg_state
+    expected_concordance: 0.762
